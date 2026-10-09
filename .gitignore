@@ -1,0 +1,30 @@
+# Runtime and Python compilation artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local evidence and user file uploads
+*.json
+*.jsonl
+*.csv
+*.txt
+*.zip
+*.tf
+*.yaml
+*.yml
+
+# Application exports and logs
+*findings.json
+*roadtools_cache.csv
+*shadow_admins.csv
+*sbom_findings.json
+*path_report.txt
+*.pdf
+*.log
+
+# Editor, IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
